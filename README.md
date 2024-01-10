@@ -16,6 +16,7 @@ But Created In TTN:
 '''--------------- TEST IF device EXIST -----------'''   
 '''
 runfile('A:/APP/root/UPPA-TEST/TEST_DEvice_TTN_EXIST.py', 
+Return FOM TTN as exist:
 
 wdir='A:/APP/root/UPPA-TEST')
 Le dispositif eui-70b3d57ed0063abc existe dans l'application test-all.
