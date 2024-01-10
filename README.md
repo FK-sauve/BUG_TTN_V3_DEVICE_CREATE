@@ -8,8 +8,8 @@ Dispositif eui-70b3d57ed0063abc approvisionné avec succès en mode ABP avec res
 {"ids":{"device_id":"eui-70b3d57ed0063abc","application_ids":{"application_id":"test-all"}},"created_at":"2024-01-10T05:05:56.196456285Z","updated_at":"2024-01-10T05:05:56.196456285Z"}
  status code: 200
 
- --------------- TEST IF device EXIST -----------
-
+ 
+--------------- TEST IF device EXIST -----------   
 
 runfile('A:/APP/root/UPPA-TEST/TEST_DEvice_TTN_EXIST.py', 
 
