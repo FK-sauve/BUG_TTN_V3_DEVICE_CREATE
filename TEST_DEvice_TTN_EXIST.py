@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Wed Jan 10 04:15:39 2024
-
+Test if device exist in TTN
 @author: FSauve
 """
 
@@ -18,6 +18,7 @@ dev_id = 'eui-70b3d57ed0063abd'
 
 
 # URL de l'API TTN V3 pour récupérer les détails du dispositif
+# TTN url to testif device exist
 api_url = f'https://eu1.cloud.thethings.network/api/v3/as/applications/{app_id}/devices/{dev_id}'
 
 # En-têtes de la requête avec l'access key
@@ -31,6 +32,7 @@ response = requests.get(api_url, headers=headers)
 
 # Vérification du code de statut de la réponse
 if response.status_code == 200:
+    # 200 = Exist
     print(f"Le dispositif {dev_id} existe dans l'application {app_id}.")
     device_details = response.json()
     print("Détails du dispositif:")
