@@ -16,7 +16,8 @@ dev_id = 'eui-70b3d57ed0063abd'
 nwk_key = 'E5784B6171A5DAA2F1F5D8A6AB149ABD'
 app_key = 'E8C54D73F451C89A1C402C49DF27DABD'
 
-# URL de l'API TTN V3 pour approvisionner un dispositif en ABP
+# URL de lAPI TTN V3 pour approvisionner un dispositif en ABP
+# Mode ABP URL set in TTN DOC
 api_url = f'https://eu1.cloud.thethings.network/api/v3/as/applications/{app_id}/devices/{dev_id}'
 
 # Donnees du dispositif LoRaWAN
